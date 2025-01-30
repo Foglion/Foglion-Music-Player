@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.player {
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.cover img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+audio {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    background: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#volume {
+    width: 80%;
+    margin: 10px 0;
+    accent-color: #4CAF50; /* 滑动条颜色 */
+}
